@@ -1,4 +1,8 @@
 #include <iostream>
+#include <seqan/file.h>
+#include <seqan/sequence.h>
+
+using namespace seqan;
 
 int int main(int argc, char *argv[])
 {
