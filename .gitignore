@@ -32,3 +32,5 @@
 Makefile
 Makefile.in
 /bin/.dirstamp
+/config.h.in
+/autom4te.cache/*
