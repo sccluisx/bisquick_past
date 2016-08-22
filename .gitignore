@@ -44,3 +44,5 @@ Makefile.in
 /config.status
 /src/.deps/bisquick.Po
 /stamp-h1
+/config.h.in~
+/bin/bisquick
