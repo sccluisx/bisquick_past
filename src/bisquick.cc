@@ -5,7 +5,7 @@
 using namespace seqan;
 
 int main(int argc, char *argv[]) {
-  std::cout<<"Bisquick v.0.01"<<std::endl;
+  std::cout<<"Baisquick v.0.01"<<std::endl;
   // Initialization
   String<char> text = "This is an awesome tutorial to get to know SeqAn!";
   String<char> pattern = "tutorial";

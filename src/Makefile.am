@@ -1,6 +1,11 @@
+AM_LDFLAGS = -lgomp -ggdb3
+AM_CPPFLAGS = -Wno-deprecated -Wall $(SEQAN_CFLAGS) -fopenmp -ggdb3 -std=c++14
+AM_CXXFLAGS = -O0 -pg -gstabs -ggdb3 
+
+
 # Our binary is produced here
-bin_PROGRAMS = ../bin/bisquick
-main_SOURCES = bisquick.cpp
+bin_PROGRAMS = $(top_builddir)/bin/bisquick
+__top_builddir__bin_bisquick_SOURCES = bisquick.cc
 # main binary will be installed into the default directory for "bin"s (hence we used the bin
 # prefix
 #noinst_LIBRARIES = libhelper.a

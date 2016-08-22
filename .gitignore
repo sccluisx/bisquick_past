@@ -26,4 +26,9 @@
 *.exe
 *.out
 *.app
+
+
+# Automake generated files
+Makefile
+Makefile.in
 /bin/.dirstamp
